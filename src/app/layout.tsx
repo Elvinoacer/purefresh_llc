@@ -18,6 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://purefresh-llc.vercel.app"),
   title: "Purefresh Premium Drinking Water | Nakuru • Maili Sita",
   description:
     "Purefresh Premium Drinking Water — KEBS-certified, WHO-compliant purified water in Nakuru, Kenya. Affordable refills, advanced reverse osmosis, and over 150 vending outlets serving low- and middle-income households across the Rift Valley.",
@@ -44,16 +45,25 @@ export const metadata: Metadata = {
     title: "Purefresh Premium Drinking Water | Nakuru",
     description:
       "KEBS-certified, WHO-compliant purified water. Affordable refills, advanced reverse osmosis. Serving Nakuru, Naivasha, Nairobi, Kajiado, Machakos & Kiambu.",
-    url: "https://purefresh.co.ke",
+    url: "https://purefresh-llc.vercel.app",
     siteName: "Purefresh Premium Drinking Water",
     type: "website",
     locale: "en_KE",
+    images: [
+      {
+        url: "/pure_fresh.webp",
+        width: 1200,
+        height: 630,
+        alt: "Purefresh Premium Drinking Water — Nakuru",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Purefresh Premium Drinking Water | Nakuru",
     description:
       "KEBS-certified, WHO-compliant purified water. Affordable refills, advanced reverse osmosis across Kenya.",
+    images: ["/pure_fresh.webp"],
   },
   robots: {
     index: true,
